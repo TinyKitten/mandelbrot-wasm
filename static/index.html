@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>My Rust + Webpack project!</title>
+    <meta charset="utf-8">
+    <title>Hello wasm-pack!</title>
   </head>
-  <body>
+  <body style="margin: 0;">
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+
+    <button id="render">render</button>
+    <div>
+    	<canvas id="canvas" height="1000" width="1000"></canvas>
+    	<canvas id="canvas_hybrid" height="1000" width="1000"></canvas>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
